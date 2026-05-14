@@ -1,0 +1,4 @@
+ts_utc,product_id,metric,value,threshold,direction,note
+2026-05-06T01:07:47.901624+00:00,BTC-USD,relative_volume_lookback,0.06852121089429046,0.4,below,relative volume lower than standard threshold
+2026-05-06T01:22:16.393350+00:00,BTC-USD,relative_volume_lookback,0.19027919710117303,0.4,below,relative volume unusually low
+2026-05-13T00:01:10.435735+00:00,BTC-USD,relative_volume_lookback,0.37,0.4,below,relative volume unusually low

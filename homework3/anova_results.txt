@@ -1,0 +1,19 @@
+HW3 — One-way ANOVA per validation dimension
+========================================================
+
+-- numeric_grounding
+   F = 0.8045, p = 0.4523  -> fail to reject H0
+   group means: {'A_production': 0.61285, 'B_minimal': 0.6073999999999999, 'C_verbose': 0.5894499999999999}
+
+-- disclaimer_compliance
+   F = nan, p = nan  -> fail to reject H0
+   group means: {'A_production': 1.0, 'B_minimal': 1.0, 'C_verbose': 1.0}
+
+-- stakeholder_fit
+   F = 7.8111, p = 0.001005  -> REJECT H0 (p<0.05)
+   group means: {'A_production': 3.7, 'B_minimal': 2.65, 'C_verbose': 3.25}
+
+-- conciseness
+   F = 66.6027, p = 1.215e-15  -> REJECT H0 (p<0.05)
+   group means: {'A_production': 4.7, 'B_minimal': 4.35, 'C_verbose': 2.75}
+
